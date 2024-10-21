@@ -120,29 +120,13 @@
 // NOTE: for MP121 to work with Arduino, twi_nonblock.h and twi_nonblock.cpp must be deleted from Mozzi library!
 // NOTE: TOUCH_CAP is not working with STM32
 #define TOUCHMODE TOUCH_CAP
-#define CAPTOUCH_TRIGGER 3
+#define CAPTOUCH_TRIGGER 6
 
 // relative volumes 1-8
-#define GHB_CHANTER_VOLUME	8
-#define GHB_DRONES_VOLUME	4
+#define CHANTER_VOLUME	8
+#define DRONES_VOLUME	4
 
-#define BGT_CHANTER_VOLUME	8
-#define BGT_DRONES_VOLUME	4
 
-#define BRD_CHANTER_VOLUME	8
-#define BRD_DRONES_VOLUME	4
-
-#define SML_CHANTER_VOLUME	8
-#define SML_DRONES_VOLUME	4
-
-#define UIL_CHANTER_VOLUME	8
-#define UIL_DRONES_VOLUME	4
-
-#define GAL_CHANTER_VOLUME	8
-#define GAL_DRONES_VOLUME	4
-
-#define AST_CHANTER_VOLUME	8
-#define AST_DRONES_VOLUME	4
 
 #define START_CHANTER_AFTERWARDS	false
 
